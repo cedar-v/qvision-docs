@@ -37,6 +37,10 @@ export default withMermaid(
                 ]
               }
             ]
+          },
+          editLink: {
+            pattern: 'https://github.com/cedar-v/qvision-docs/edit/main/docs/:path',
+            text: '在 GitHub 上编辑此页面'
           }
         }
       },
@@ -58,6 +62,10 @@ export default withMermaid(
                 ]
               }
             ]
+          },
+          editLink: {
+            pattern: 'https://github.com/cedar-v/qvision-docs/edit/main/docs/:path',
+            text: 'Edit this page on GitHub'
           }
         }
       }
@@ -88,7 +96,7 @@ export default withMermaid(
 
       // 社交链接
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/your-repo' }
+        { icon: 'github', link: 'https://github.com/cedar-v/qvision-docs' }
       ],
 
       // 页脚
@@ -104,7 +112,7 @@ export default withMermaid(
 
       // 编辑链接
       editLink: {
-        pattern: 'https://github.com/your-repo/edit/main/docs/:path',
+        pattern: 'https://github.com/cedar-v/qvision-docs/edit/main/docs/:path',
         text: 'Edit this page on GitHub'
       },
 
